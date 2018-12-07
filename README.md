@@ -13,3 +13,7 @@ cmake ..
 make
 ```
 + 进入plugin_test.py中，调用pybind11生成的python函数接口，实现python调用C++的函数实现
+
+# NOTE
+
++ `PY_MODULE_NAME` 必须的你的模块名字，也就是`PYBIND11_MODULE(demo, m)`中的demo
